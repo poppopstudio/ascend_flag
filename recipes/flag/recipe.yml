@@ -1,0 +1,22 @@
+name: 'Ascend flag setup'
+description: 'Ascend flag setup recipe - installs modules and sets up config'
+type: 'Content type'
+install:
+  - flag
+config:
+  strict: true
+  import:
+    ascend_flag: '*'
+  actions:
+    user.role.anonymous:
+      grantPermissions:
+        - 'flag report'
+    user.role.authenticated:
+      grantPermissions:
+        - 'flag report'
+    user.role.resource_manager:
+      grantPermissions:
+        - 'unflag report'
+    user.role.content_editor:
+      grantPermissions:
+        - 'unflag report'

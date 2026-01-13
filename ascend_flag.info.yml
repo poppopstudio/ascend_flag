@@ -1,0 +1,19 @@
+name: Ascend flag
+type: module
+package: Ascend
+description: Provides flagging of resources and associated views.
+core_version_requirement: ^10.6 || ^11
+dependencies:
+  - ascend_resource:ascend_resource
+  - flag:flag
+
+config_devel:
+  - core.entity_form_display.flagging.report.default
+  - core.entity_view_display.flagging.report.default
+  - field.field.flagging.report.ascend_report_details
+  - field.storage.flagging.ascend_report_details
+  - flag.flag.report
+  - system.action.flag_action.report_flag
+  - system.action.flag_action.report_unflag
+  - system.action.flag_delete_flagging
+  - views.view.reported_resources

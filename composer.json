@@ -1,7 +1,7 @@
 {
     "name": "poppopstudio/ascend_flag",
     "description": "Ascend project resource flagging",
-    "type": "drupal-module",
+    "type": "drupal-recipe",
     "license": "proprietary",
     "authors": [
         {
@@ -15,4 +15,3 @@
         "drupal/flag": "^5.0"
     }
 }
-
