@@ -1,3 +1,4 @@
+uuid: fc0b4cd1-38e2-4427-a827-2687015e80fe
 langcode: en
 status: true
 dependencies:
@@ -11,7 +12,7 @@ mode: default
 content:
   ascend_report_details:
     type: basic_string
-    label: above
+    label: inline
     settings: {  }
     third_party_settings: {  }
     weight: 0

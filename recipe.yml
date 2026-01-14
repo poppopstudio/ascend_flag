@@ -1,6 +1,6 @@
 name: 'Ascend flag setup'
 description: 'Ascend flag setup recipe - installs modules and sets up config'
-type: 'Content type'
+type: 'Feature'
 install:
   - flag
 config:

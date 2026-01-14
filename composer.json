@@ -12,6 +12,7 @@
     ],
     "require": {
         "drupal/core": "^10.6",
-        "drupal/flag": "^5.0"
+        "drupal/flag": "^5.0",
+        "poppopstudio/ascend_resource": "^1"
     }
 }

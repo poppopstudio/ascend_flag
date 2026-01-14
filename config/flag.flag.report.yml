@@ -8,7 +8,7 @@ label: Report
 bundles:
   - resource
 entity_type: resource
-global: true
+global: false
 flag_short: 'Report a problem with this resource'
 flag_long: ''
 flag_message: 'Resource has been reported'
