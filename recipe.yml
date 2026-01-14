@@ -1,12 +1,10 @@
 name: 'Ascend flag setup'
 description: 'Ascend flag setup recipe - installs modules and sets up config'
-type: 'Feature'
+type: 'Site'
 install:
   - flag
 config:
   strict: true
-  import:
-    ascend_flag: '*'
   actions:
     user.role.anonymous:
       grantPermissions:
