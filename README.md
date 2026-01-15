@@ -27,3 +27,6 @@ Change directory into /patches and
 ### Install the module and dependencies via the recipe
 
 From project root, `drush recipe ../recipes/ascend_flag`
+
+If this step gives you an error like `"flag" is not a known module or theme`
+you will need to clear cache and reenter the recipe command.
